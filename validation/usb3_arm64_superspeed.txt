@@ -1,0 +1,23 @@
+USB Device Tree Viewer excerpt supplied from the ARM64 Windows test host
+Date: 2026-10-05
+
+Vendor ID                : 0x1A86 (Nanjing Qinheng Microelectronics Co., Ltd.)
+Product ID               : 0x5537
+Manufacturer String      : "wch.cn"
+Product String           : "WCH USB3.0 DEVICE "
+USB Version              : 3.0 (5 Gbit/s)
+Port maximum Speed       : SuperSpeed
+Device maximum Speed     : SuperSpeed
+Device Connection Speed  : SuperSpeed
+Used Endpoints           : 7
+Driver                   : CH375M64.SYS
+Service                  : CH375_M64
+
+Associated board measurements:
+CC1                      : approximately 0 V
+CC2                      : approximately 0.9 V
+PD8 / MUX SEL            : 3.3 V
+PF10 / MUX EN_N          : 0 V
+
+Scope: proves one Type-C orientation and one MUX lane path. The opposite
+orientation with V27 remains NOT HARDWARE VERIFIED.

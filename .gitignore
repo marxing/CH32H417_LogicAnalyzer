@@ -1,0 +1,23 @@
+# Firmware build outputs
+firmware/app/build_*/
+firmware/app/*.elf
+firmware/app/*.hex
+firmware/app/*.map
+firmware/app/*.o
+
+# Host build/package outputs
+host/build_cmake/
+host/install/
+host/dist/
+host/*.user
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.tmp
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.pyc
+

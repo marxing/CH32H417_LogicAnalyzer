@@ -1,0 +1,31 @@
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/hardware.h:17,
+                 from Common/hardware.c:8:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  

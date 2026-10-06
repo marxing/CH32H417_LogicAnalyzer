@@ -1,0 +1,3064 @@
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/Debug/debug.h:21,
+                 from V3F/User/ch32h417_it.h:15,
+                 from V3F/User/ch32h417_it.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/usb_desc.h:18,
+                 from Common/ch32h417_usbhs_device.h:19,
+                 from V3F/User/main.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_it.h:15,
+                 from V3F/User/ch32h417_conf.h:34:
+V3F/User/main.c: In function 'main':
+V3F/User/main.c:39:15: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+   39 |     DBG_PRINT("SystemClk:%d\r\n", SystemClock);
+      |               ^~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~
+      |                                   |
+      |                                   uint32_t {aka long unsigned int}
+Common/Debug/debug.h:64:44: note: in definition of macro 'DBG_PRINT'
+   64 |   #define DBG_PRINT(format, ...)    printf(format, ##__VA_ARGS__)
+      |                                            ^~~~~~
+V3F/User/main.c:39:27: note: format string is defined here
+   39 |     DBG_PRINT("SystemClk:%d\r\n", SystemClock);
+      |                          ~^
+      |                           |
+      |                           int
+      |                          %ld
+V3F/User/main.c:40:15: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+   40 |     DBG_PRINT("V3F SystemCoreClk:%d\r\n", SystemCoreClock);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           uint32_t {aka long unsigned int}
+Common/Debug/debug.h:64:44: note: in definition of macro 'DBG_PRINT'
+   64 |   #define DBG_PRINT(format, ...)    printf(format, ##__VA_ARGS__)
+      |                                            ^~~~~~
+V3F/User/main.c:40:35: note: format string is defined here
+   40 |     DBG_PRINT("V3F SystemCoreClk:%d\r\n", SystemCoreClock);
+      |                                  ~^
+      |                                   |
+      |                                   int
+      |                                  %ld
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from V3F/User/system_ch32h417.c:13:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_adc.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_adc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_can.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_can.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_crc.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_crc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_dac.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_dac.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_dbgmcu.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_dbgmcu.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_dfsdm.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_dfsdm.c:13:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_dma.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_dma.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_dvp.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_dvp.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_ecdc.h:21,
+                 from ../SRC/Peripheral/src/ch32h417_ecdc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+../SRC/Peripheral/src/ch32h417_ecdc.c: In function 'ECDC_Init':
+../SRC/Peripheral/src/ch32h417_ecdc.c:57:22: warning: comparison of integer expressions of different signedness: 'int' and 'long unsigned int' [-Wsign-compare]
+   57 |     for(int i = 0; i < (HCLKClock / SystemClock + 1) * 64 * (((ECDC->CTRL >> 4) & 0x7) == 0 ? (1) : (((ECDC->CTRL >> 4) & 0x7))); i++)
+      |                      ^
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_eth.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_eth.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_exti.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_exti.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_flash.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_flash.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_fmc.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_fmc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_gpha.h:19,
+                 from ../SRC/Peripheral/src/ch32h417_gpha.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_gpio.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_gpio.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_hsadc.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_hsadc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_hsem.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_hsem.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+../SRC/Peripheral/src/ch32h417_hsem.c: In function 'HSEM_GetOneSemTakenState':
+../SRC/Peripheral/src/ch32h417_hsem.c:86:41: warning: comparison of integer expressions of different signedness: 'long unsigned int' and 'int' [-Wsign-compare]
+   86 |     if( (HSEM->RX[HSEM_ID] & (1 << 31)) == (1 << 31))
+      |                                         ^~
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_i2c.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_i2c.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_i3c.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_i3c.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_ipc.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_ipc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_iwdg.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_iwdg.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_lptim.h:21,
+                 from ../SRC/Peripheral/src/ch32h417_lptim.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_ltdc.h:19,
+                 from ../SRC/Peripheral/src/ch32h417_ltdc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_opa.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_opa.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_pwr.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_pwr.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_qspi.h:19,
+                 from ../SRC/Peripheral/src/ch32h417_qspi.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_rcc.h:19,
+                 from ../SRC/Peripheral/src/ch32h417_rcc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_rng.h:19,
+                 from ../SRC/Peripheral/src/ch32h417_rng.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_rtc.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_rtc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_sai.h:19,
+                 from ../SRC/Peripheral/src/ch32h417_sai.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_sdio.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_sdio.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_sdmmc.h:21,
+                 from ../SRC/Peripheral/src/ch32h417_sdmmc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_serdes.h:21,
+                 from ../SRC/Peripheral/src/ch32h417_serdes.c:11:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_spi.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_spi.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_swpmi.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_swpmi.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_tim.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_tim.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_usart.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_usart.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_wwdg.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_wwdg.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V3F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/Debug/debug.h:21,
+                 from Common/Debug/debug.c:13:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+Common/Debug/debug.c: In function '_write':
+Common/Debug/debug.c:196:38: warning: unused parameter 'fd' [-Wunused-parameter]
+  196 | __attribute__((used)) int _write(int fd, char *buf, int size)
+      |                                  ~~~~^~
+   text	   data	    bss	    dec	    hex	filename
+  10552	    268	   1068	  11888	   2e70	build_github_verify/V3F/analyzer_V3F.elf
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/Debug/debug.h:21,
+                 from V5F/User/ch32h417_it.h:15,
+                 from V5F/User/ch32h417_it.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/Debug/debug.h:21,
+                 from V5F/User/main.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+V5F/User/main.c: In function 'main':
+V5F/User/main.c:27:19: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+   27 |         DBG_PRINT("V5F SystemCoreClk:%d\r\n", SystemCoreClock);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~
+      |                                               |
+      |                                               uint32_t {aka long unsigned int}
+Common/Debug/debug.h:64:44: note: in definition of macro 'DBG_PRINT'
+   64 |   #define DBG_PRINT(format, ...)    printf(format, ##__VA_ARGS__)
+      |                                            ^~~~~~
+V5F/User/main.c:27:39: note: format string is defined here
+   27 |         DBG_PRINT("V5F SystemCoreClk:%d\r\n", SystemCoreClock);
+      |                                      ~^
+      |                                       |
+      |                                       int
+      |                                      %ld
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from V5F/User/system_ch32h417.c:13:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_adc.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_adc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_can.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_can.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_crc.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_crc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_dac.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_dac.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_dbgmcu.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_dbgmcu.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_dfsdm.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_dfsdm.c:13:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_dma.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_dma.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_dvp.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_dvp.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_ecdc.h:21,
+                 from ../SRC/Peripheral/src/ch32h417_ecdc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+../SRC/Peripheral/src/ch32h417_ecdc.c: In function 'ECDC_Init':
+../SRC/Peripheral/src/ch32h417_ecdc.c:57:22: warning: comparison of integer expressions of different signedness: 'int' and 'long unsigned int' [-Wsign-compare]
+   57 |     for(int i = 0; i < (HCLKClock / SystemClock + 1) * 64 * (((ECDC->CTRL >> 4) & 0x7) == 0 ? (1) : (((ECDC->CTRL >> 4) & 0x7))); i++)
+      |                      ^
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_eth.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_eth.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_exti.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_exti.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_flash.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_flash.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_fmc.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_fmc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_gpha.h:19,
+                 from ../SRC/Peripheral/src/ch32h417_gpha.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_gpio.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_gpio.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_hsadc.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_hsadc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_hsem.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_hsem.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+../SRC/Peripheral/src/ch32h417_hsem.c: In function 'HSEM_GetOneSemTakenState':
+../SRC/Peripheral/src/ch32h417_hsem.c:86:41: warning: comparison of integer expressions of different signedness: 'long unsigned int' and 'int' [-Wsign-compare]
+   86 |     if( (HSEM->RX[HSEM_ID] & (1 << 31)) == (1 << 31))
+      |                                         ^~
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_i2c.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_i2c.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_i3c.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_i3c.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_ipc.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_ipc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_iwdg.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_iwdg.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_lptim.h:21,
+                 from ../SRC/Peripheral/src/ch32h417_lptim.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_ltdc.h:19,
+                 from ../SRC/Peripheral/src/ch32h417_ltdc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_opa.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_opa.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_pwr.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_pwr.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_qspi.h:19,
+                 from ../SRC/Peripheral/src/ch32h417_qspi.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_rcc.h:19,
+                 from ../SRC/Peripheral/src/ch32h417_rcc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_rng.h:19,
+                 from ../SRC/Peripheral/src/ch32h417_rng.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_rtc.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_rtc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_sai.h:19,
+                 from ../SRC/Peripheral/src/ch32h417_sai.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_sdio.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_sdio.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_sdmmc.h:21,
+                 from ../SRC/Peripheral/src/ch32h417_sdmmc.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_serdes.h:21,
+                 from ../SRC/Peripheral/src/ch32h417_serdes.c:11:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_spi.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_spi.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_swpmi.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_swpmi.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_tim.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_tim.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_usart.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_usart.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from ../SRC/Peripheral/inc/ch32h417_wwdg.h:20,
+                 from ../SRC/Peripheral/src/ch32h417_wwdg.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/Debug/debug.h:21,
+                 from Common/Debug/debug.c:13:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+Common/Debug/debug.c: In function '_write':
+Common/Debug/debug.c:196:38: warning: unused parameter 'fd' [-Wunused-parameter]
+  196 | __attribute__((used)) int _write(int fd, char *buf, int size)
+      |                                  ~~~~^~
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/board_memory.c:2:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/ch32h417_logic.h:16,
+                 from Common/board_ui.c:7:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/ch32h417_logic.h:16,
+                 from Common/ch32h417_logic.c:10:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/ch32H417_uhsif.h:20,
+                 from Common/ch32h417_uhsif.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+Common/ch32h417_uhsif.c: In function 'UHSIF_Line2_IN_Callback':
+Common/ch32h417_uhsif.c:161:39: warning: unused parameter 'rcv_count' [-Wunused-parameter]
+  161 | void UHSIF_Line2_IN_Callback(uint32_t rcv_count)
+      |                              ~~~~~~~~~^~~~~~~~~
+Common/ch32h417_uhsif.c: In function 'UHSIF_Line3_IN_Callback':
+Common/ch32h417_uhsif.c:174:39: warning: unused parameter 'rcv_count' [-Wunused-parameter]
+  174 | void UHSIF_Line3_IN_Callback(uint32_t rcv_count)
+      |                              ~~~~~~~~~^~~~~~~~~
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/usb_desc.h:18,
+                 from Common/ch32h417_usbhs_device.h:19,
+                 from Common/ch32h417_usbhs_device.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+Common/ch32h417_usbhs_device.c: In function 'USBHS_IRQHandler':
+Common/ch32h417_usbhs_device.c:586:39: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  586 |                                     if(((USBHSD->UEP1_RX_CTRL) & USBHS_UEP_R_RES_MASK) == USBHS_UEP_R_RES_STALL)
+      |                                       ^
+Common/ch32h417_usbhs_device.c:591:33: note: here
+  591 |                                 case(DEF_UEP1 | DEF_UEP_IN):
+      |                                 ^~~~
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/ch32h417_usbss_device.h:19,
+                 from Common/ch32h417_usbss_device.c:13:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/Debug/debug.h:21,
+                 from V5F/User/ch32h417_it.h:15,
+                 from Common/ch32h417_usbss_it.c:12:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/hardware.h:17,
+                 from Common/hardware.c:8:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/ch32h417_logic.h:16,
+                 from Common/instrument.c:7:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+In file included from V5F/User/ch32h417_conf.h:24,
+                 from ../SRC/Peripheral/inc/ch32h417.h:10970,
+                 from Common/usb_desc.h:18,
+                 from Common/usb_desc.c:14:
+../SRC/Peripheral/inc/ch32h417_eth.h:960:1: warning: "/*" within comment [-Wcomment]
+  960 | /*                          ETH MMC Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:961:1: warning: "/*" within comment [-Wcomment]
+  961 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:962:1: warning: "/*" within comment [-Wcomment]
+  962 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1001:1: warning: "/*" within comment [-Wcomment]
+ 1001 | /*                          ETH Precise Clock Protocol Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1002:1: warning: "/*" within comment [-Wcomment]
+ 1002 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1003:1: warning: "/*" within comment [-Wcomment]
+ 1003 | /******************************************************************************/
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1044:1: warning: "/*" within comment [-Wcomment]
+ 1044 | /*                       ETH DMA Register
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1045:1: warning: "/*" within comment [-Wcomment]
+ 1045 | /*
+      |  
+../SRC/Peripheral/inc/ch32h417_eth.h:1046:1: warning: "/*" within comment [-Wcomment]
+ 1046 | /******************************************************************************/
+      |  
+   text	   data	    bss	    dec	    hex	filename
+  45180	   1116	 494612	 540908	  840ec	build_github_verify/V5F/analyzer_V5F.elf
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          8B7C819F9014C47FF91228CF368420926180A164A5FD283CCBE831CCEA21D043       E:\我的素材\逻辑分析仪\CH32H417_…
+
